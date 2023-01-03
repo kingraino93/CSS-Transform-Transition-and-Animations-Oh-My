@@ -1,1 +1,10 @@
-
+*button.name{
+    background-color: rgb(190, 184, 184);
+    animation-name: button;
+    animation-duration: 1s;
+  }
+  
+  @keyframes button {
+    from {color: rgb(215, 206, 206);}
+    to {color: rgb(72, 156, 212);}
+  }
